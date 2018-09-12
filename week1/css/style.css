@@ -1,8 +1,26 @@
+
 html,body{
     background-color: azure;
 }
-table,tr,td{
-    border: 1px solid black;
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.porsche_image, .bmw_image{
+    width: 20%;
+    padding: 5px;
+}
+td{
+    padding: 0;
+    border-collapse: collapse;
+}
+td:nth-child(2n){
+    border-left: 2px solid black;
+}
+th{
+    border-collapse: collapse;
+    padding: 0;
+    border-bottom: 2px solid black;
 }
 .grid{
     display: flex;
@@ -29,4 +47,7 @@ table,tr,td{
 }
 .grid_item:nth-child(3),.grid_item:nth-child(6){
     margin-right: 0;
+}
+.porsche_table{
+    margin-top: 30px;
 }
