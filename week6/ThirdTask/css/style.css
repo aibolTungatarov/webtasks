@@ -1,0 +1,28 @@
+#cars{
+  display:flex;
+  flex-wrap:wrap;
+}
+.card{
+  position:relative;
+  width:100px;
+  margin:5px;
+}
+.card .basket{
+  background-color:white;
+  position:absolute;
+  right:5px;
+  top:5px;
+  z-index:9;
+}
+.basket img{
+    width: 30px;
+    height: 30px;
+}
+#insideBasket{
+  border:1px solid red;
+  text-align:center;
+}
+img{
+    width: 100px;
+    height: 100px;
+}

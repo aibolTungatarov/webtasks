@@ -1,0 +1,12 @@
+#news{
+	border:1px solid red;
+	width:400px;
+	height:300px;
+}
+    h1,p{
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        margin-top: 20px;
+    }

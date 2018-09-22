@@ -1,0 +1,20 @@
+h1{
+    color: green;
+}
+span{
+    color: red;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
+.list{
+    width:30%;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+.retake a{
+    color: red;
+}

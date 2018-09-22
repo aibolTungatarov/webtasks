@@ -1,0 +1,40 @@
+.menu a{
+    color: green;
+}
+.item{
+    display: flex;
+    margin-top: 10px;
+    border: 2px solid red;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+}
+img{
+    margin-top: 15px;
+    width: 80px;
+    height: 50px;
+}
+.description{
+    margin-left: 10px;
+}
+.attributes{
+    margin-left: 3px;
+}
+.title a{
+    font-size: 30px;
+}
+.text_for{
+    margin: 0 10px;
+    font-weight: bold;
+}
+.price{
+    background-color: pink;
+    color:green;
+    font-size: 24px;
+}
+.city{
+    font-weight: 700;
+}
+.urgent{
+    background-color: yellow;
+}
