@@ -1,0 +1,43 @@
+.card
+{
+    margin: 30px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;    
+    border: 1px solid blue;
+    width: 60%;
+    padding: 5px;
+}
+.info{
+    margin-left: 10px;
+}
+.price{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 20px
+}
+@media only screen and (max-width: 400px) {
+    .desc , img
+    {
+        display: none;
+    }
+    .price{
+        display: inline;
+        margin-top: 0;
+    }
+    .card{
+        width: 80%;    
+    }
+    a{
+        font-size: 20px;
+    }
+    .info{
+        margin-left: 0;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        
+    }
+}
