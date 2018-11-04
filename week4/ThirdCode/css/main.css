@@ -5,8 +5,8 @@ body,html{
 .overlay{
     display: block;
     position: absolute;
-    z-index: 1;
-    background-color: rgba(0,0,0,.7);
+    z-index: 1; 
+    background-color: rgba(0,0,0,.1);
     width:100%;
     height: 100%;
     transition: all .5s ease;

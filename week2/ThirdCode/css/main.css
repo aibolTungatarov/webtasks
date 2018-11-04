@@ -1,6 +1,10 @@
 .menu a{
     color: green;
 }
+.price{
+    padding:5px;
+    border-radius: 10px;
+}
 .item{
     display: flex;
     margin-top: 10px;

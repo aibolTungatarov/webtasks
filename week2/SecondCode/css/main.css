@@ -1,6 +1,9 @@
 h1{
     color: green;
 }
+.article{
+    margin-bottom: 30px;
+}
 span{
     color: red;
     font-weight: bold;

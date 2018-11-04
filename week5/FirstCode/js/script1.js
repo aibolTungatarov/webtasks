@@ -11,7 +11,9 @@ button.onclick = function(){
     let s33 = document.getElementById("s33").value;
     
     let res = s11*((s22*s33)-(s23*s32))-s12*((s21*s33)-(s23*s31))+s13*((s21*s32)-(s22*s31));
+    console.log(res)
     document.getElementById("result").innerHTML = res;
+    console.log("Aibol");
     
 
 };
